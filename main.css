@@ -59,4 +59,16 @@
     }
   }
 
+.about-row {
+    background-color: rgb(220, 233, 205);
+}
+
+.hr-w {
+    width: 30%;
+}
+
+.about-text {
+    line-height: 1.8;
+}
+
 /* ------------------- footer */
