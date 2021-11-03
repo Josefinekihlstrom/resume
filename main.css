@@ -16,6 +16,28 @@
 /* ------------------- header */
 
 /* ------------------- body */
+
+.navbar-light {
+  background-color: rgb(98, 107, 89) !important;
+}
+
+.navbar-brand:link,
+.navbar-brand:visited,
+.navbar-brand:hover,
+.navbar-brand:active {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  
+}
+
+.navbar-nav a:link,
+.navbar-nav a:visited,
+.navbar-nav a:hover,
+.navbar-nav a:active {
+  color: white !important;
+}
+
 .hero-1 {
     height: 100vh;
     width: 100%;
