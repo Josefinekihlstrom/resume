@@ -111,3 +111,8 @@
 }
 
 /* ------------------- footer */
+
+.footer {
+  background-color: rgb(98, 107, 89) !important;
+  color: white !important;
+}
