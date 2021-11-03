@@ -132,6 +132,14 @@
   background-color: rgb(220, 233, 205);
 }
 
+.zoom {
+  transition: transform .5s;
+}
+
+.zoom:hover {
+  transform: scale(1.1);
+}
+
 /* ------------------- footer */
 
 .footer {
