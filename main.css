@@ -3,11 +3,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 .roboto {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif, 'Font Awesome 5 Brands', 'Font Awesome 5 Free', 'Font Awesome 5 Free Solid';
 }
 .apple {
-    font-family: 'Homemade Apple', sans-serif;
+    font-family: 'Homemade Apple', sans-serif, 'Font Awesome 5 Brands', 'Font Awesome 5 Free', 'Font Awesome 5 Free Solid';
 }
+
+.letter-spacing {
+  letter-spacing: 2px;
+}
+
 /* ------------------- header */
 
 /* ------------------- body */
@@ -81,6 +86,20 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.work-col {
+  background-color: rgb(98, 107, 89);
+  color: white;
+}
+
+.education-col {
+  background-color: rgb(163, 173, 152);
+  color: white;
+}
+
+.hr-color {
+  border-color: white;
 }
 
 /* ------------------- footer */
