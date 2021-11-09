@@ -17,6 +17,8 @@
 
 /* ------------------- body */
 
+
+/* ------------------- navbar */
 .navbar-light {
   background-color: rgb(98, 107, 89) !important;
 }
@@ -38,6 +40,25 @@
   color: white !important;
 }
 
+/* ------------------- hero image section */
+.line-1{
+  border-right: .15em solid orange;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.anim-typewriter{
+  animation: typewriter 2.5s steps(35) 1s 1 normal both,
+             blinkTextCursor 500ms steps(35) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 15.3em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
 .hero-1 {
     height: 100vh;
     width: 100%;
@@ -46,53 +67,17 @@
 }
 
 .hero-1-text {
-    padding-top: 200px;
+    padding-top: 50vh;
+    padding-left: 150px;
 }
 
-.slide-left {
-  width:100%;
-  overflow:hidden;
-}
-.slide-left h1 {
-  animation: slide-left 2s;
-  margin-left: 20%;
-}
-
-.slide-right h3 {
-    animation: slide-right 2s;
-    margin-left: 20%;
-  }
-
-@keyframes slide-left {
-  from {
-    margin-left: 100%;
-    width: 300%; 
-  }
-
-  to {
-    margin-left: 20%;
-    width: 100%;
-  }
-}
-
-@keyframes slide-right {
-    from {
-      margin-left: -100%;
-      width: 300%; 
-    }
-  
-    to {
-      margin-left: 20%;
-      width: 100%;
-    }
-  }
-
+/* ------------------- about section */
 .about-row {
     background-color: rgb(220, 233, 205);
 }
 
 .hr-w {
-    width: 30%;
+    width: 100px;
 }
 
 .about-text {
@@ -138,6 +123,28 @@
 
 .zoom:hover {
   transform: scale(1.1);
+}
+
+/* ------------------- icons */
+
+.contact-col i {
+  color: black;
+  background: white;
+  padding:30px;
+  border-radius: 50%;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+.contact-col i:link {
+  color: white !important;
+}
+
+.contact-col i:hover {
+  color: white;
+  background: rgb(98, 107, 89);
 }
 
 /* ------------------- footer */
