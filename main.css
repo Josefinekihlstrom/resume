@@ -13,6 +13,7 @@
   letter-spacing: 2px;
 }
 
+
 /* ------------------- header */
 
 /* ------------------- body */
@@ -152,4 +153,26 @@
 .footer {
   background-color: rgb(98, 107, 89) !important;
   color: white !important;
+}
+
+
+/* ------------------- media screen */
+@media (min-width: 600px) {
+  .josefine-text {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero-1-text {
+    padding-left: 20px;
+  }
+
+  .josefine-text {
+    font-size: 30px;
+  }
+
+  .line-1 {
+    font-size: medium;
+  }
 }
