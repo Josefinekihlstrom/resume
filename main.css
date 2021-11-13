@@ -36,6 +36,10 @@
   color: white !important;
 }
 
+.brand-name {
+  color: orange;
+}
+
 /* ------------------- hero image section */
 .line-1{
   border-right: .15em solid #c6ebff;
