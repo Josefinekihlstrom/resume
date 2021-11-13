@@ -19,6 +19,10 @@
   background-color: rgb(50, 56, 43) !important;
 }
 
+.nav-link {
+  margin-right: 8px !important;
+}
+
 .navbar-brand:link,
 .navbar-brand:visited,
 .navbar-brand:hover,
@@ -38,6 +42,20 @@
 
 .brand-name {
   color: orange;
+}
+
+.nav-hover {
+  background:
+    linear-gradient(currentColor 0 0) 0 0,
+    linear-gradient(currentColor 0 0) 0 0,
+    linear-gradient(currentColor 0 0) 100% 100%,
+    linear-gradient(currentColor 0 0) 100% 100%;
+  background-size: var(--d, 0) 1px, 1px var(--d, 0);
+  background-repeat: no-repeat;
+  transition: 0.5s;
+}
+.nav-hover:hover {
+  --d: 100%;
 }
 
 /* ------------------- hero image section */
