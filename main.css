@@ -228,6 +228,16 @@ ul.timeline > li:before {
   color: white;
 }
 
+.footer-container {
+  margin: 0px;
+  padding: 0px
+}
+
+.map-section iframe {
+  height: 250px;
+  width: 100vw;
+}
+
 
 /* ------------------- media screen */
 
