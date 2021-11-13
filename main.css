@@ -38,7 +38,7 @@
 
 /* ------------------- hero image section */
 .line-1{
-  border-right: .15em solid grey;
+  border-right: .15em solid #c6ebff;
   white-space: nowrap;
   overflow: hidden;
 }
@@ -51,7 +51,7 @@
   to{width: 15.3em;}
 }
 @keyframes blinkTextCursor{
-  from{border-right-color: orange;}
+  from{border-right-color: #cbb7cf;}
   to{border-right-color: transparent;}
 }
 
@@ -125,6 +125,13 @@
   transform: scale(1.1);
 }
 
+/* ------------------- technical skills section */
+
+.bg-gradient {
+  background: rgb(98,107,89) !important;
+  background: linear-gradient(72deg, rgba(203,183,207,1) 0%, rgba(198,235,255,1) 100%) !important;
+}
+
 /* ------------------- work history section */
 
 .skills-col {
@@ -184,7 +191,7 @@ ul.timeline > li:before {
 /* ------------------- icons */
 
 .contact-col i {
-  color: orange;
+  color: #cbb7cf;
   background: white;
   padding:30px;
   border-radius: 50%;
@@ -199,8 +206,19 @@ ul.timeline > li:before {
 }
 
 .contact-col i:hover {
-  color: white;
-  background: orange;
+  color: #c6ebff;
+  background: white;
+}
+
+.fa-spin-hover:hover {
+  animation: ani-spin 1s infinite linear;
+}
+
+@-webkit-keyframes ani-spin{
+  50% {transform: rotate(45deg);}
+}
+@keyframes ani-spin{
+  50% {transform: rotate(45deg);}
 }
 
 /* ------------------- footer */
