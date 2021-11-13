@@ -176,7 +176,7 @@
 }
 
 .fa-graduation-cap {
-  color: rgb(248, 203, 118);
+  color: rgba(198,235,255,1);
 }
 
 ul.timeline {
@@ -203,7 +203,7 @@ ul.timeline > li:before {
   display: inline-block;
   position: absolute;
   border-radius: 50%;
-  border: 3px solid orange;
+  border: 3px solid rgb(139, 202, 236);
   left: 20px;
   width: 20px;
   height: 20px;
