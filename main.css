@@ -131,8 +131,23 @@
   background-color: rgb(236, 236, 236);
 }
 
+.skills-list {
+  color: orange;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.skills-list i {
+  color: lightgrey;
+}
+
 .hr-color-2 {
   border-color: darkgrey;
+}
+
+.fa-graduation-cap {
+  color: rgb(248, 203, 118);
 }
 
 ul.timeline {
