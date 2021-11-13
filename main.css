@@ -27,7 +27,7 @@
 .navbar-brand:visited,
 .navbar-brand:hover,
 .navbar-brand:active {
-  color: white;
+  color: white !important;
   text-transform: uppercase;
   letter-spacing: 1px;
   
@@ -42,20 +42,6 @@
 
 .brand-name {
   color: orange;
-}
-
-.nav-hover {
-  background:
-    linear-gradient(currentColor 0 0) 0 0,
-    linear-gradient(currentColor 0 0) 0 0,
-    linear-gradient(currentColor 0 0) 100% 100%,
-    linear-gradient(currentColor 0 0) 100% 100%;
-  background-size: var(--d, 0) 1px, 1px var(--d, 0);
-  background-repeat: no-repeat;
-  transition: 0.5s;
-}
-.nav-hover:hover {
-  --d: 100%;
 }
 
 /* ------------------- hero image section */
@@ -78,10 +64,20 @@
 }
 
 .hero-1 {
-    height: 100vh;
-    width: 100%;
-    background-image: url('img/green.jpg');
-    background-attachment: fixed;
+  padding: 0px;
+  height: 100vh;
+  width: 100%;
+}
+
+#myVideo {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -5;
+  object-fit: cover;
 }
 
 .hero-1-text {
@@ -154,6 +150,10 @@
   background: linear-gradient(72deg, rgba(203,183,207,1) 0%, rgba(198,235,255,1) 100%) !important;
 }
 
+.tech-row {
+  background-color: white;
+}
+
 /* ------------------- work history section */
 
 .skills-col {
@@ -210,6 +210,11 @@ ul.timeline > li:before {
   z-index: 400;
 }
 
+/* ------------------- project section */
+.project-row {
+  background-color: white;
+}
+
 /* ------------------- icons */
 
 .contact-col i {
@@ -262,6 +267,22 @@ ul.timeline > li:before {
 
 
 /* ------------------- media screen */
+
+@media (min-width: 992px) {
+  .nav-hover {
+    background:
+      linear-gradient(currentColor 0 0) 0 0,
+      linear-gradient(currentColor 0 0) 0 0,
+      linear-gradient(currentColor 0 0) 100% 100%,
+      linear-gradient(currentColor 0 0) 100% 100%;
+    background-size: var(--d, 0) 1px, 1px var(--d, 0);
+    background-repeat: no-repeat;
+    transition: 0.5s;
+  }
+  .nav-hover:hover {
+    --d: 100%;
+  }
+}
 
 @media (max-width: 992px) {
   .work-col {
