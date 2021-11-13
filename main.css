@@ -89,7 +89,7 @@
 }
 
 .josefine-img {
-  width: 400px;
+  width: 380px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -249,21 +249,37 @@ ul.timeline > li:before {
   .skills-col {
     margin-bottom: 0px !important;
   }
+
+  .about-text {
+    font-size:small;
+  }
 }
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
   .josefine-text {
     font-size: 50px;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .hero-1-text {
     padding-left: 20px;
   }
 
+  .josefine-img {
+    width: 300px;
+  }
+
   .josefine-text {
     font-size: 30px;
+  }
+
+  .about-col {
+    margin-top: 0px !important;
+  }
+
+  .about-img {
+    margin-bottom: 0px !important;
   }
 
   .line-1 {
