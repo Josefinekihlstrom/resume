@@ -44,6 +44,12 @@
   color: orange;
 }
 
+
+.right {
+  text-align: right;
+  float: right;
+}
+
 /* ------------------- hero image section */
 .line-1{
   border-right: .15em solid #c6ebff;
