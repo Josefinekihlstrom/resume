@@ -107,6 +107,7 @@
 /* ------------------- navbar */
 .navbar-light {
   background-color: rgb(50, 56, 43) !important;
+  width: 100vw;
 }
 
 .nav-link {
@@ -358,7 +359,6 @@ ul.timeline > li:before {
 
 .map-section iframe {
   height: 250px;
-  width: 100vw;
 }
 
 
