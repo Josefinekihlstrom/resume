@@ -357,11 +357,6 @@ ul.timeline > li:before {
   padding: 0px
 }
 
-.map-section iframe {
-  height: 250px;
-}
-
-
 /* ------------------- media screen */
 
 @media (min-width: 992px) {
