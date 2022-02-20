@@ -349,11 +349,6 @@ ul.timeline > li:before {
   z-index: 400;
 }
 
-/* ------------------- upcoming section */
-.upcoming-row {
-  background-color: rgb(233, 202, 145);
-}
-
 /* ------------------- project section */
 .project-row {
   background-color: white;
