@@ -9,7 +9,10 @@
     font-family: 'Homemade Apple', sans-serif, 'Font Awesome 5 Brands', 'Font Awesome 5 Free', 'Font Awesome 5 Free Solid';
 }
 
-/* ------------------- header */
+/* ------------------- html */
+html {
+  scroll-behavior: smooth;
+}
 
 /* ------------------- body */
 
